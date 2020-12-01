@@ -1,0 +1,17 @@
+h1, h2{
+    text-align: center;
+    font-weight: bold;
+    color: chartreuse;
+}
+
+.photo {
+    text-align: center;
+}
+
+.classes-of-trees > li {
+    font-weight: bold;
+}
+
+.link{
+    font-weight: bold;
+}
