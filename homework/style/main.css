@@ -35,6 +35,19 @@ h1{
 
 .button-wiki {
     padding-top: 10px;
+    padding-left: 5%;
+}
+
+.button-start {
+    position: fixed;
+    bottom: 40px;
+    width: auto;
+}
+
+.button-classification {
+    position: fixed;
+    padding-left: 85%;
+    bottom: 40px;
 }
 
 link{
