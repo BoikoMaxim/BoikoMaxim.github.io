@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: lightgray;
 }
 
@@ -41,7 +41,11 @@ h1{
 .button-start {
     position: fixed;
     bottom: 40px;
-    width: auto;
+    width: 20px;
+}
+
+.div-start {
+    padding-left: 5%;
 }
 
 .button-classification {
@@ -70,8 +74,4 @@ a:link, a:visited {
 
 a:hover, a:active {
     background-color: red;
-}
-
-header li {
-    list-style: none;
 }
