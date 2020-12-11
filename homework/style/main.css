@@ -1,6 +1,17 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-d {
     background-color: lightgray;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    
+    background-image: url(tree.png);
+    background-position: center;
+    background-attachment: scroll;
+    z-index: 1;
 }
 
 h1{
