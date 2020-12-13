@@ -66,6 +66,67 @@ h1{
     bottom: 40px;
 }
 
+.gallery {
+    background-color: lightsteelblue;
+    border: steelblue 3px solid;
+    height: 600px;
+    width: 600px;
+}
+
+.image {
+    margin: 10px;
+    border: 3px solid gray;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+div.image:hover {
+    height: 250px;
+    width: 250px;
+    border: red 3px solid;
+}
+
+div#image1 {
+    background-image: url(../gallery/1.png);
+    background-size: contain;
+}
+
+div#image2 {
+    background-image: url(../gallery/2.png);
+    background-size: contain;
+}
+
+div#image3 {
+    background-image: url(../gallery/3.png);
+    background-size: contain;
+}
+
+div#image4 {
+    background-image: url(../gallery/4.png);
+    background-size: contain;
+}
+
+div#image5 {
+    background-image: url(../gallery/5.png);
+    background-size: contain;
+}
+
+div#image6 {
+    background-image: url(../gallery/6.png);
+    background-size: contain;
+}
+
+div#image7 {
+    background-image: url(../gallery/7.png);
+    background-size: contain;
+}
+
+div#image8 {
+    background-image: url(../gallery/8.png);
+    background-size: contain;
+}
+
 link{
     font-weight: bold;
 }
