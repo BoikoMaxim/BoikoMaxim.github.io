@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 0, 0);
+    color: orange;
 }
 
 span {
@@ -11,9 +11,6 @@ span {
 .first-d {
     width: 80%;
     overflow: auto;
-    
-    position: relative;
-    left: 150px;
 
     background-image: url("../tree.png");
     background-position: center;
@@ -25,17 +22,11 @@ span {
 .second-d {
     width: 80%;
     overflow: auto;
-    
-    position: relative;
-    left: 150px;
 }
 
 .third-d {
     width: 80%;
     overflow: auto;
-    
-    position: relative;
-    left: 150px;
 }
 
 h1{
@@ -52,9 +43,16 @@ h1{
 }
 
 .tree {
-    width: 95%;
-    margin: auto;
+    width: 80%;
+    margin: 5px;
     padding: 4px;
+    
+    position: relative;
+    left: 200px;
+
+    font-weight: bold;
+    text-shadow: black 1px 1px 0, black -1px -1px 0, 
+    black -1px 1px 0, black 1px -1px 0;
 }
 
 .button-class {
@@ -66,21 +64,26 @@ h1{
     padding: 4px;
     line-height: 2.0;
     font-size: 90%;
+
+    z-index: 12;
 }
 
 .button-wiki {
     padding-top: 10px;
     padding-left: 5%;
+
+    position: relative;
+    left: 200px;
+    
+    z-index: 12;
 }
 
 .button-start {
     position: fixed;
     bottom: 40px;
     text-align: center;
-}
 
-.div-start {
-    padding-left: 2%;
+    z-index: 12;
 }
 
 .button-classification {
@@ -88,6 +91,12 @@ h1{
     padding-left: 87%;
     bottom: 40px;
     text-align: center;
+
+    z-index: 12;
+}
+
+.div-start {
+    padding-left: 2%;
 }
 
 .gallery {
@@ -98,7 +107,7 @@ h1{
     width: 500px;
   
     position: relative;
-    left: 200px;
+    left: 300px;
 }
 
 .image {
@@ -116,6 +125,8 @@ div.image:hover {
     height: 250px;
     width: 250px;
     border: red 3px solid;
+
+    z-index: 11;
 }
 
 div#image1 {
