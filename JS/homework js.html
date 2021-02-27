@@ -1,11 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Homework JS</title>
-</head>
-<body>
-    <script src="factorial.js"></script>
-    <script src="fibonacci.js"></script>
-    <script src="if.js"></script>
-</body>
+<html>
+
+    <head>
+        <title>Homework JS</title>
+        <link rel="stylesheet" href="test.css">
+    </head>
+
+    <body>
+        <table>
+            <tr>
+                <td>1:1</td>
+                <td>2:1</td>
+                <td>3:1</td>
+                <td>4:1</td>
+                <td>5:1</td>
+            </tr>
+
+            <tr>
+                <td>1:2</td>
+                <td>2:2</td>
+                <td>3:2</td>
+                <td>4:2</td>
+                <td>5:2</td>
+            </tr>
+
+            <tr>
+                <td>1:3</td>
+                <td>2:3</td>
+                <td>3:3</td>
+                <td>4:3</td>
+                <td>5:3</td>
+            </tr>
+
+            <tr>
+                <td>1:4</td>
+                <td>2:4</td>
+                <td>3:4</td>
+                <td>4:4</td>
+                <td>5:4</td>
+            </tr>
+
+            <tr>
+                <td>1:5</td>
+                <td>2:5</td>
+                <td>3:5</td>
+                <td>4:5</td>
+                <td>5:5</td>
+            </tr>       
+                
+        </table>
+        
+<!--   **********************************    -->
+
+        <div>Пользователи:</div>
+        
+        <ul>
+            <li>Джон</li>
+            <li>Пит</li>
+        </ul>
+
+<!-- ********************************** -->
+
+        <div data-widget-name="menu">Choose the genre</div>
+
+        <a name="list">the list</a>
+        <ul>
+          <li><a href="http://google.com">http://google.com</a></li>
+          <li><a href="/tutorial">/tutorial.html</a></li>
+          <li><a href="local/path">local/path</a></li>
+          <li><a href="ftp://ftp.com/my.zip">ftp://ftp.com/my.zip</a></li>
+          <li><a href="http://nodejs.org">http://nodejs.org</a></li>
+          <li><a href="http://internal.com/test">http://internal.com/test</a></li>
+        </ul>
+
+<!-- ****************************************** -->
+
+        <ol id="elem">
+            <li>Привет</li>
+            <li>Мир</li>
+        </ol>
+
+<!-- ********************************************* -->
+
+        <div id="container"></div>  
+
+<!-- ******************************************* -->
+
+        <div id="calendar"></div>
+
+<!-- ***************************************** -->
+
+        <div id="clock">
+            <span class="hour">hh</span>:<span class="min">mm</span>:<span class="sec">ss</span>
+        </div>
+
+        <input type="button" onclick="clockStart()" value="Старт">
+
+        <input type="button" onclick="clockStop()" value="Стоп">
+
+<!-- ******************************************* -->
+
+        <p><input type="button" id="hider" value="Нажмите, чтобы спрятать текст" /></p>
+
+        <div id="text">Текст</div>
+
+<!-- ******************************************* -->
+
+        <input type="button" onclick="this.hidden=true" value="Нажми, чтобы спрятать">
+
+<!-- ********************************************** -->
+
+        <div id="sweeties" class="menu">
+            <span class="title">Сладости (нажми меня)!</span>
+            
+            <ul>
+                <li>Пирожное</li>
+                <li>Пончик</li>
+                <li>Мёд</li>
+            </ul>
+
+        </div>
+
+<!-- ************************************************** -->
+
+        <div class="button-x">
+            <div class="pane">
+                <h3>Лошадь</h3>
+                <p>Домашняя лошадь — животное семейства непарнокопытных, одомашненный и единственный сохранившийся подвид дикой лошади, вымершей в дикой природе, за исключением небольшой популяции лошади Пржевальского.</p>
+            </div>
+
+            <div class="pane">
+                <h3>Осёл</h3>
+                <p>Домашний осёл (лат. Equus asinus asinus), или ишак, — одомашненный подвид дикого осла (Equus asinus), сыгравший важную историческую роль в развитии хозяйства и культуры человека и по-прежнему широко в хозяйстве многих развивающихся стран.</p>
+            </div>
+
+            <div class="pane">
+                <h3>Кошка</h3>
+                <p>Кошка, или домашняя кошка (лат. Felis silvestris catus), — домашнее животное, одно из наиболее популярных(наряду с собакой) «животных-компаньонов». Являясь одиночным охотником на грызунов и других мелких животных, кошка — социальное животное, использующее для общения широкий диапазон звуковых сигналов.</p>
+            </div>
+        </div>
+
+        <script src="dom.js"></script>
+
+    </body>
+
 </html>
