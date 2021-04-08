@@ -1,0 +1,47 @@
+#photo {
+    background-image: url("../photos/photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+    position: fixed;
+    top:0;
+    left:0; 
+    min-width:100%;
+    min-height:100%;
+}
+
+.info-start {
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 150px;
+    margin-bottom: 300px;
+    border-radius: 75px;
+}
+
+.border {
+    padding: 20px;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.bg-size {
+    padding: 20px;
+}
+
+.bg-color {
+    background-color: lightgray;
+}
+
+.span-m {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.b-start {
+    position: fixed;
+    bottom: 75px;
+    right: 20px;
+}
